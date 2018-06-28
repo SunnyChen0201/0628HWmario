@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WpfApp1.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="180" d:DesignWidth="300" >
+    <Grid Background="Pink" Height="100" Width="300">
+        <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                
+            </Grid.ColumnDefinitions>
+        <Label FontSize="13">輸入鬧鐘時間</Label>
+        <TextBox Foreground="Black" Grid.Column="0" FontSize="13" VerticalAlignment="Center" BorderThickness="0" x:Name="bbb"></TextBox>
+        <Label Grid.Column="2" FontSize="13" >鬧鐘名稱</Label>
+        <TextBox  Foreground="Black" FontSize="13" Grid.Column="2" VerticalAlignment="Center" BorderThickness="0" x:Name="name"></TextBox>
+        </Grid>
+    
+</UserControl>
